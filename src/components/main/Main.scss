@@ -1,0 +1,241 @@
+.content-top {
+  padding: 93px 24px;
+  background: var(--Dark-Violet);
+  background-image: url('../../assests/images/bg-pattern-intro-left-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  &__title, &__info, &__btn {
+    color: var(--Very-Light-Gray);
+  }
+
+  &__title {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -0.67px;
+    font-family: $font-stack-heading;
+  }
+
+  &__info {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  &__btn {
+    padding: 12px 28.5px;
+    border: 1px solid var(--Very-Light-Gray);
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15.2px;
+    letter-spacing: 1.5px;
+    transition: .5s ease;
+  }
+
+  &__btn:hover {
+    color: var(--Dark-Violet);
+    background: var(--Very-Light-Gray);
+  }
+}
+
+main {
+  text-align: center;
+}
+
+.content-bottom {
+  position: relative;
+  padding: 140px 24px;
+  
+  .bg-pattern {
+    position: absolute;
+    top: -160px;
+    right: 0;
+    width: 123px;
+    height: 352px;
+  }
+
+  &__line {
+    margin-bottom: 40px;
+    margin-left: (113px-24px);
+    width: 150px;
+    height: 1px;
+    background: var(--Dark-Grayish-Violet);
+  }
+
+  &__title {
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: -0.67px;
+    font-family: $font-stack-heading;
+  }
+
+  &__plans {
+    margin-bottom: 140px;
+
+    .plan {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      margin-bottom: 56px;
+      
+      &__img {
+        margin-bottom: 32px;
+        width: 86px;
+      }
+
+      &__title {
+        margin-bottom: 16px;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38.39px;
+        letter-spacing: -0.39px;
+        font-family: $font-stack-heading;
+      }
+
+      &__content {
+        color: var(--Dark-Grayish-Violet);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+      }
+    }
+  }
+
+  &__card {
+    padding-top: 72px;
+    padding-bottom: 62px;
+    height: 338px;
+    background: var(--Dark-Violet);
+    background-image: url('../../assests/images/bg-pattern-how-we-work-mobile.svg');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color: var(--Very-Light-Gray);
+
+    .card-title {
+      margin-bottom: 40px;
+      font-weight: 400;
+      font-family: $font-stack-heading;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.56px;
+    }
+
+    .card-btn {
+      border: 1px solid var(--Very-Light-Gray);
+      padding: 12px 24.5px;
+      color: var(--Very-Light-Gray);
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15.2px;
+      letter-spacing: 1.5px;
+
+      transition: .5s ease;
+    }
+
+    .card-btn:hover {
+      background: var(--Very-Light-Gray);
+      color: var(--Dark-Violet);
+    }
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  main {
+    position: relative;
+    text-align: unset;
+  }
+
+  .image-intro {
+    position: absolute;
+    top: 105px;
+    right: 165px;
+    max-width: 540px;
+    max-height: 650px;
+    z-index: 1;
+  }
+
+  .content-top {
+    position: relative;
+    padding: 169px 735px 127px 165px;
+    height: 600px;
+    background-image: url('../../assests/images/bg-pattern-intro-right-desktop.svg');
+    background-position-x: right;
+    background-position-y: -80px;    
+    &__line {
+      position: absolute;
+      top: 105px;
+      left: 165px;
+      width: 150px;
+      height: 1px;
+      background: var(--Dark-Grayish-Violet);
+    }
+
+    &__title {
+      font-size: 4.5rem;  
+      line-height: 64px;
+      letter-spacing: -1px;
+    }
+
+    &__info {
+      margin-bottom: 24px;
+      width: 540px;
+    }
+  }
+
+  .content-bottom {
+    padding: 305px 165px 150px 165px;
+    
+    .bg-pattern {
+      top: -120px;
+      left: 0;
+    }
+
+    &__line {
+      margin-bottom: 63px;
+      margin-left: 0;
+    }
+
+    &__title {
+      margin-bottom: 96px;
+      font-size: 72px;
+      line-height: 64px;
+      letter-spacing: -1px;
+    }
+
+    &__plans {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 158px;
+
+      .plan {
+        justify-content: flex-start;
+        align-items: unset;
+        text-align: unset;
+        margin-bottom: 0;
+        width: 350px;
+        height: 250px;
+      }
+    }
+
+    &__card {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 69px 81px;
+      height: 250px;
+      background-image: url('../../assests//images/bg-pattern-how-we-work-desktop.svg');
+
+      .card-title {
+        margin-bottom: 0;
+        width: 475px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.78px;
+      }
+    }
+  }
+}

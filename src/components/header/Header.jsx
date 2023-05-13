@@ -22,16 +22,16 @@ export default function Header() {
         <nav className="navbar-menu">
           <ul className="nav-list">
             <li className="nav-item ">
-              <a href="#" className="nav-link">HOW WE WORK</a>
+              <a href="https://www.frontendmentor.io/profile/TimWang95" className="nav-link">HOW WE WORK</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">BLOG</a>
+              <a href="https://www.frontendmentor.io/profile/TimWang95" className="nav-link">BLOG</a>
             </li>
             <li className="nav-item">
-              <a href="#" className="nav-link">ACCOUNT</a>
+              <a href="https://www.frontendmentor.io/profile/TimWang95" className="nav-link">ACCOUNT</a>
             </li>
             <li className="nav-item view-plans">
-              <a href="#" className="nav-link">VIEW PLANS</a>
+              <a href="https://www.frontendmentor.io/profile/TimWang95" className="nav-link">VIEW PLANS</a>
             </li>
           </ul>
         </nav>

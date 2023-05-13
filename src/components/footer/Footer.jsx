@@ -15,39 +15,39 @@ export default function Footer() {
             <Logo />
           </div>
           <div className="social-media__icon">
-            <a href=""><IconFacebook/></a>
-            <a href=""><IconTwitter/></a>
-            <a href=""><IconPinterest/></a>
-            <a href=""><IconInstagram/></a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95"><IconFacebook/></a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95"><IconTwitter/></a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95"><IconPinterest/></a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95"><IconInstagram/></a>
           </div>
         </div>
         <div className='footer__line'></div>
         <div className="footer__section">
           <section className="footer__section__content">
             <h3 className="content-title">OUR COMPANY</h3>
-            <a href="" className="page-link">HOW WE WORK</a>
-            <a href="" className="page-link">WHY INSURE?</a>
-            <a href="" className="page-link">CHECK PRICE</a>
-            <a href="" className="page-link">REVIEWS</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">HOW WE WORK</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">WHY INSURE?</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">CHECK PRICE</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">REVIEWS</a>
           </section>
           <section className="footer__section__content">
             <h3 className="content-title">HELP ME</h3>
-            <a href="" className="page-link">FAQ</a>
-            <a href="" className="page-link">TERMS OF USE</a>
-            <a href="" className="page-link">PRIVACY POLICY</a>
-            <a href="" className="page-link">COOKIES</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">FAQ</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">TERMS OF USE</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">PRIVACY POLICY</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">COOKIES</a>
           </section>
           <section className="footer__section__content">
             <h3 className="content-title">CONTACT</h3>
-            <a href="" className="page-link">SALES</a>
-            <a href="" className="page-link">SUPPORT</a>
-            <a href="" className="page-link">LIVE CHAT</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">SALES</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">SUPPORT</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">LIVE CHAT</a>
           </section>
           <section className="footer__section__content">
             <h3 className="content-title">OTHERS</h3>
-            <a href="" className="page-link">CAREERS</a>
-            <a href="" className="page-link">PRESS</a>
-            <a href="" className="page-link">LICENSES</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">CAREERS</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">PRESS</a>
+            <a href="https://www.frontendmentor.io/profile/TimWang95" className="page-link">LICENSES</a>
           </section>
         </div>
 

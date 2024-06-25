@@ -10,7 +10,7 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 ## Links
 
 - Solution URL: [GitHub repo](https://github.com/TimWang95/insure-landing-page)
-- Live Site URL: [solution Demo](https://645f7e3b0459693b7a85247b--rococo-starburst-8a4b40.netlify.app/)
+- Live Site URL: [solution Demo](https://rococo-starburst-8a4b40.netlify.app/)
 
 
 ## Built with
